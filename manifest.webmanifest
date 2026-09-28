@@ -1,0 +1,22 @@
+{
+  "name": "Bela Gestão",
+  "short_name": "Bela Gestão",
+  "description": "Estoque, vendas, clientes e avisos de recompra para consultoras de beleza.",
+  "lang": "pt-BR",
+  "start_url": "./#/inicio",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fff5f9",
+  "theme_color": "#d6246e",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ],
+  "shortcuts": [
+    { "name": "Registrar venda", "url": "./#/vender" },
+    { "name": "Avisos", "url": "./#/avisos" }
+  ]
+}
